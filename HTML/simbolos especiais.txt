@@ -1,3 +1,4 @@
+<b> Aula 05 </b>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,8 +6,7 @@
     <title>Simbolos Especiais</title>
 </head>
 <body>
-    <b>Aula05</b>
-<h2>Simolos especiais</h2>
+    <h2>Simolos especiais</h2>
 <br>
 &lt;
 &gt;
@@ -40,6 +40,7 @@
 &clubs;
 &hearts;
 &diams;
+ simbolos
 </p>
 </body>
 </html>
