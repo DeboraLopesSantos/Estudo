@@ -1,0 +1,243 @@
+Estrutura básica  
+
+<!DOCTYPE html> 
+
+<html>  
+
+<head>  
+
+<meta charset=”utf-8”>  
+
+<title>Título da página</title>  
+
+</head> 
+
+ <body> 
+
+ </body> 
+
+</html> 
+
+1  =  <!DOCTYPE html> 
+
+Doctype 
+
+Observe que a primeira linha de nossa estrutura HTML é a declaração do doctype. 
+
+Você lembra que o doctype informa o tipo de documento que o navegador está acessando? 
+
+ 
+
+2  =  <html> 
+
+<html> 
+
+A tag <html> envolve, praticamente, todo o conteúdo da página. 
+
+Assim como o doctype, a tag <html> também informa ao navegador que o conteúdo dentro dela é HTML. 
+
+ 
+
+3  = <head> 
+
+<head> 
+
+A tag <head> é a tag cabeça ou o cabeçalho da nossa página. Nesse sentido, a tag <head> desempenha um papel fundamental. 
+
+Dentro dessa tag, inserimos as informações que o navegador vai ler, como títulos, descrições, palavras-chaves e outras. 
+
+ 
+
+4  =  <meta charset=”utf-8”> 
+
+<meta> 
+
+As tags meta ou metatags são tags que fornecem dados aos navegadores e aos motores de busca sobre o documento HTML em que estão inseridas. Tais tags não aparecem em sua tela, pois são informações específicas para os navegadores. 
+
+Você se lembra dos atributos? No caso apresentado, observe que a tag <meta> possui o atributo charset e o valor ‘utf-8’. O atributo charset informa ao navegador o tipo de codificação que deve ser usada. 
+
+Com isso, precisamos informar ao navegador o tipo de codificação de caracteres que ele deve usar. O modelo de codificação UTF-8 pode representar qualquer caráter universal padrão Unicode. 
+
+ 
+
+5  =  <title> 
+
+ 
+
+<title> 
+
+A tag <title>, dentro do head, é a tag que informa o título da página ao navegador. 
+
+Atualmente, a tag <title> é considerada umas das tags mais importantes. 
+
+Além de adicionar um título à aba no navegador, ela também auxilia os motores de busca a encontrarem o site no momento de uma pesquisa. 
+
+ 
+
+6  = <body> 
+
+<body> 
+
+A tag body é o corpo da página. Desse modo, a tag <body> é responsável por expor o conteúdo para o usuário final. 
+
+Separadores – Quebra de Linha 
+
+Nesse caso, usamos o elemento <br> para quebrar as linhas. No local em que inserirmos a tag <br>, o texto pulará para a próxima linha. 
+
+A tag <br> é uma tag nula. Dessa forma, não precisamos inserir o </br> para o fechamento.
+
+Separadores – Parágrafos 
+
+Quando trabalhamos com textos longos ou com grande quantidade de parágrafos, devemos usar a tag <p>. 
+
+A tag <p> tem a função de separar blocos de texto e significa parágrafo. Essa tag deve ser inserida da seguinte maneira: 
+
+
+02/05/2021
+
+Separadores – Linha Horizontal 
+
+Para inserir uma linha horizontal, basta adicionar a tag <hr>. Desse modo, onde a tag <hr> for inserida, será gerada uma linha. 
+
+Você verá que o texto também será quebrado com a inserção da linha horizontal. Por conta disso, tome cuidado com a inclusão dessa tag no meio do texto. 
+
+Assim como a tag <br>, a tag <hr> também é uma tag nula. Isso significa que não há necessidade de fechá-la. 
+
+
+Formatações de Cabeçalho e Textos 
+As tags de formatação contribuem para um desenvolvimento mais rápido e eficiente de um conte
+
+Títulos – Cabeçalhos 
+
+Os títulos no HTML são divididos em seis níveis – de 1 a 6. Quando inseridos na página, os títulos se destacam dos demais textos pelo tamanho da letra. 
+
+No HTML, a tag que representa os títulos é a <h>. Observe a composição da tag <h>: 
+
+ 
+
+Exemplo: <h1> Seu Título </h1> 
+
+<h1> Título nível 1 </h1> 
+
+<h2> Título nível 2 </h2> 
+
+<h3> Título nível 3 </h3> 
+
+<h4> Título nível 4 </h4> 
+
+<h5> Título nível 5 </h5> 
+
+<h6> Título nível 6 </h6> 
+
+Negrito – bold, em inglês
+
+Existem duas formas de aplicar o negrito com tags. Cada forma de aplicação possui uma função:
+
+<b> – Segundo a descrição do W3C, a tag <b> deve ser usada para destacar uma palavra.
+<strong> – A tag <strong> também destaca a palavra. No entanto, essa tag deve ser usada para representar algo importante, sério ou urgente
+
+
+Itálico
+Assim como o negrito (bold), o itálico também possui duas formas de ser aplicado.
+
+<i> – Segundo as orientações do W3C, a tag <i> deve ser usada em termos técnicos. Por exemplo: O nome da flor é Orquídea.
+<em> – Já a tag <em> deve ser usada para dar ênfase a uma palavra. Por exemplo: Ela não passou por aqui ontem.
+
+Sublinhado, subscrito e sobrescrito
+As tags para sublinhar, subscrever e sobrescrever são:
+
+Tag <u> – A tag <u> adiciona sublinhado ao texto.
+Tag <sub> – O texto dentro da tag <sub> se torna subscrito (letras pequenas abaixo de um texto). Ex: H20.
+Tag <sup> – Coloca o texto como sobrescrito (letras pequenas acima de um texto). Ex: X4.
+
+tags html
+
+<sub>
+O texto dentro da tag <sub> se torna subscrito.
+
+<sup>
+Coloca o texto como sobrescrito.
+
+<em>
+Aplica itálico ao texto. É usada para dar ênfase a uma palavra.
+
+Aplicação de Cores - passaremos a utilizar atributos, em vez de tags.
+
+Background e Foreground 
+
+Vamos iniciar com o atributo bgcolor. Tal atributo tem como função adicionar cor de fundo (background) onde é inserido. Usaremos a tag <body> para exemplificar. 
+
+O atributo bgcolor é adicionado da seguinte maneira: 
+
+<body bgcolor = “COR”>  </body> 
+
+Já as cores podem ser inseridas de duas formas: 
+
+Por seus nomes em inglês. 
+
+Por seus códigos hexadecimais. 
+
+código hexadecimal	Nome
+#FFFF00	                Yellow
+#808000	                Olive
+#FFFFFF	                White
+#000000	                Black
+#FF0000	                Red
+#0000FF	                Blue
+#00FF00	                Green
+
+Foreground 
+
+Utiliza a tag <font> >/font> 
+
+<font color=”cor”> </font> 
+
+Tamanho e Estilo do Texto
+
+<font size = "20px"> seu texto </font>
+
+Listas
+
+listas não ordenadas(sem uma ordem sequencial)
+
+Para criar uma lista não ordenada, basta adicionar a tag <ul>. Já os itens são incluídos a partir da tag <li>. Vejamos um exemplo: 
+
+<ul> 
+  <li> Fundação</li> 
+  <li> Bradesco</li> 
+  <li> Brasil</li> 
+</ul> 
+
+
+lista ordenada
+A inserção da lista ordenada é feita com as tags <ol> e <li>. 
+
+Vejamos: 
+
+<ol> 
+  <li> Fundação</li> 
+  <li> Bradesco</li> 
+  <li> Brasil</li> 
+</ol> 
+
+Lista de Definição 
+
+A criação desse modelo de lista utiliza três elementos do HTML. Vejamos: 
+
+<dl> – cria a lista. 
+<dt> – define o termo. 
+<dd> – adiciona a definição. 
+
+Inserção de Links 
+
+Quando inserimos um link, a tag <a> faz o papel de direcionar a navegação entre as páginas.
+O elemento "A" da tag significa "action".
+Para criar o link, o atributo "href" é obrigatório. Tal atributo guarda o novo endereço para onde o usuário será direcionado. 
+
+<a href="Endereço destino"> Texto para seu link </a> 
+
+Inserção de Imagens
+
+A tag <img> possibilita trabalhar com imagens. Os atributos dessa tag auxiliam na definição do tamanho, da posição e da descrição da imagem.
+
+<img src= “Local onde está a imagem”>

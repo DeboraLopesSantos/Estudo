@@ -34,5 +34,3 @@ utilizando dentro das tags <head> </head> e <style> </style> deixa a formatacao 
  <br> H<sub>2</sub>O &larr; Sub Escrito
 </p>
 -->
-02/05/2021
-<hr> - tag para inserir linha na horizontal.
