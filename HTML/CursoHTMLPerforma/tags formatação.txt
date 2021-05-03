@@ -6,7 +6,7 @@ Estrutura básica
 
 <head>  
 
-<meta charset=”utf-8”>  
+<meta charset="utf-8">  
 
 <title>Título da página</title>  
 
@@ -241,3 +241,62 @@ Inserção de Imagens
 A tag <img> possibilita trabalhar com imagens. Os atributos dessa tag auxiliam na definição do tamanho, da posição e da descrição da imagem.
 
 <img src= “Local onde está a imagem”>
+
+Tabelas
+
+Para criar uma tabela, precisamos de três tags <table>, <tr> e <td>.
+
+representadas na estrutura da tabela a seguir.
+
+<table> – Tabela
+<td> – Coluna
+<tr> – Linha
+
+Com essas três tags básicas, conseguiremos criar a seguinte tabela:
+
+<table border="1">
+        <tr>
+            <th>Titulo 1</th> => define titulo da coluna 1
+            <th>Titulo 2</th> => define o titulo da coluna 2
+        </tr>
+        <tr>
+          <td> Fundação Bradesco </td>
+         <td> Apostila </td>
+        </tr>
+          <tr>
+          <td>HTML</td>
+          <td>CSS</td>
+        </tr>
+      </table>
+
+Formulários – Forms 
+
+Para criar um formulário, temos de usar uma tag específica. A tag <form> é a responsável por essa função.
+
+<form action=" "  method = " ">  </form> 
+
+Os atributos na tag <form> não são obrigatórios. No entanto, os padrões recomendam a definição de valores para os dois atributos a seguir: 
+
+Action 
+
+O atributo action define o destino dos dados que foram coletados. De modo geral, o valor inserido nesse atributo é um URL. 
+
+Method 
+
+O atributo method tem a função de definir o método do HTTP que será usado para enviar os dados – GET ou POST. 
+
+  
+
+Quando clicamos em um link da tag <a>, o link utiliza o método GET. 
+
+O método GET possui capacidade para 1.024 caracteres e é utilizado para passar pequenas informações ao servidor. 
+
+<hr>  => linha horizontal após a tag </table>
+      <form action=”/deixaremos-em-branco” method=”post”>
+        <label> Text: </label>
+        <input type=”text”>
+        <label> Password: </label>
+        <input type=”password”>
+        <label> Textarea: </label>
+        <textarea> </textarea >
+      </form>
