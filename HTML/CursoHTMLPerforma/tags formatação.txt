@@ -242,6 +242,8 @@ A tag <img> possibilita trabalhar com imagens. Os atributos dessa tag auxiliam n
 
 <img src= “Local onde está a imagem”>
 
+Aula dia 03/05/2021
+
 Tabelas
 
 Para criar uma tabela, precisamos de três tags <table>, <tr> e <td>.
@@ -300,3 +302,67 @@ O método GET possui capacidade para 1.024 caracteres e é utilizado para passar p
         <label> Textarea: </label>
         <textarea> </textarea >
       </form>
+
+Para criar um botão, usaremos a tag <button>. Apesar de parecer óbvio, a tag button pode apresentar mais de um comportamento. O comportamento da tag button depende de seu type, que pode ser de três tipos
+
+Type submit
+
+O type submit envia os dados do formulário à página-destino do atributo actions.
+
+Type reset
+
+O type reset redefine todos os campos para padrão, assim que acionado.
+
+Type button
+
+Uma tag button com o type button não realiza nenhuma ação, a não ser que seja acionada via codificação Javascript.
+ Ex:
+   <button type="submit">cadastrar</button>
+Type checkbox 
+
+De modo geral, o input com atributo type e valor checkbox são usados em questões com opções de escolha – sim ou não
+  Ex:
+      <input type="checkbox" name="opcao" value="selectA" checked>clique para selecionar o A<br>
+      <input type="checkbox" name="opcao" value="selectB">clique para selecionar o B <br>
+=> Os atributos "name" e "value" são responsaveis para informar "actions" aos dados que devem ser enviados ao servidor.
+=> Caso o atributo "checked" esteja aplicado o elemento (espaço para selecionar) já aparecerá selecionado.
+   
+Type Radio
+
+=> type radio e similar a checkbox porém somente 1 opção poderá ser selecionada 
+
+Ex:
+      <input type="radio" name="opcao" value="selectA">Masculino
+      <input type="radio" name="opcao" value="selectB" checked>Feminino
+
+Tag <select>
+ 
+A tag <select> é formada por um conjunto de opções <option>. Tais opções fornecem ao usuário uma lista organizada no formato drop-down.
+
+Vejamos:
+
+<select>
+
+  <option value="verde">Verde</option>
+
+  <option value="vermelho">Vermelho</option>
+
+  <option value="azul">Azul</option>
+
+  <option value="alpha">Alpha</option>
+
+</select>
+
+A tag <select> é uma tag não nula. Isso significa que ela deve conter abertura <select> e fechamento </select>, além das opções inseridas. Veja um exemplo a seguir:
+
+<option value= "valor a ser enviado ao servidor"> Texto Aqui </option>
+
+Type Hidden – Oculto
+
+O type hidden torna o campo input invisível para o usuário, permitindo, dessa forma, a passagem de dados para o servidor sem a necessidade de interação com o usuário.
+
+Ex:
+      <label>campo visivel</label>
+      <input type="test"><br>
+      <label>campo invisivel</label>
+      <input type="hidden" name="pais" value="Brasil"> => campo "hidden" fica invisível ao usuario
