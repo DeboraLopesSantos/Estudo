@@ -45,3 +45,19 @@ DA TAMBEM PARA COLOCAR CODIGO RGB NA COR DA LETRA
 TEM TBM O RGBA
 EX:  color: rgba( 0, 0, 0, 0) padrão para cor preta; POREM ADICIONA O PADRAO ALFA NO ULTIMO DIGITO QUE VAI DE 0 A 1, SENDO 0 MAIOR NIVEL DE TRANSPARENCIA DA LETRA
 ( COLOCANDO 0, 0, 0, 0.1 TEREMOS 10% DE TRANSPARÊNCIA POIS O MAIOR NIVEL DE ALFA É 1=100% 
+
+04/05/2021
+Curso em Vídeo
+Aula 09
+Imagens
+
+utiliza a tag
+<img src="local onde esta o aquivo/nome do arquivo"/> => Para colocar imagem na página.
+
+formtação ensinada de forma errada de imagem(tamanho)
+<img src="_imagens/glass-quadro-mulher.jpg" width="200"/> = forma errada na formatação de imagem porém funciona tbm, POREM SAIBA QUE O TAMANHO ORIGINAL DA IMAGEM EM SI NAO SERA REDUZIDO, DIMINUIRA O PX DENTRO DA HTML(VISIVEL), POREM O TAMANHO DO ARQUIVO PESARA NO SITE, A FORMA PARA DIMINUIR O TAMANHO DA IMAGEM PARA ENTRA TANTO NO TAMANHO VISIVEL COMO MAS LEVE PARA A PAGINA E USANDO UM EDITOR DE IMAGEM PARA FAZER A REDUÇÃO.( FERRAMENTA GRATUITA GIMP )
+
+formatação de imagem dentro do padrão
+
+
+
