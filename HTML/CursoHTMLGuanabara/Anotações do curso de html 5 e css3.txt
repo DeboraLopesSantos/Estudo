@@ -1,0 +1,47 @@
+Curso em Vídeo
+Aula 08 
+Cores 
+=> Antigamente usava o atributo bgcolor="cor" para colocar uma cor de fundo na pagina Ex: <body bgcolor="red"> 
+=> Tag Atual <body style="background-color: red"> mesmo efeito final.
+
+
+***OBS: Dá para trabalhar direto dentro da tag <style> </style>
+ EX:
+<style>
+        h1 {
+            font-family: Arial;
+            font-size: 35pt;
+            color: brown;
+            text-shadow: 2px 2px 20px black;
+        } p {
+        text-align: justify;
+        text-indent: 50px;
+        } body {
+            background-color: greenyellow;
+            color: red; => para definir a cor da letra
+        }
+    </style>
+
+REPARE QUE TEMOS FORMATAÇÃO DE ESTILOS DO TITULO, DO PARAGRAFO, E TAMBEM DO CORPO DA PAGINA ENTRE ABRE E FECHA DE {}.
+
+
+Existem outras maneiras de configurar cores em html5 ultilizando códigos gerados em códigos hexadecimas para cores  RGB 
+sempre antecendendo pelo símbolo # seis dígitos sequentes os 00 primeiros representa a qnt de Vermelho os 00 seguintes de Verde os 00 últimos qnt de Azul
+Ex: background-color: #60453E código gerado hexadecimal aleatório 
+
+
+POREM NAO PRECISA DECORAR OS CODIGOS BASTA TER QUALQUER PROGRAMA DE PHOTOSHOP (PROGRAMAS BONS MOSTRA OS CODIGOS HEXADECIMAIS DIRETAMENTE = ADOBE PHOTOSHOP CC)(GIMP APP INDICADO PELO GUANABARA PARA SELETOR DE CORES)
+Ex: background-color: #a1d3ef código gerado hexadecimal pelo photoshop
+
+background-color: rgb(35, 137, 195); => outra maneira para adicional cor também e colocando os valores de RGB que aparece nos app seletores de cores.
+
+=> background-image: url(" aqui dentro vai um fundo baixado *arquivo background*");<=
+=> background-color: hsl(165, 81%, 93%); para usar código de saturação contraste =>hsl(hue saturation, lightness)
+***tem também o hsla(165, 81%, 93%, 0.5); com alfa para controlar transparência do fundo da página.
+
+DA TAMBEM PARA COLOCAR CODIGO RGB NA COR DA LETRA
+ EX:  color: rgb( 0, 0, 0) padrão para cor preta;
+
+TEM TBM O RGBA
+EX:  color: rgba( 0, 0, 0, 0) padrão para cor preta; POREM ADICIONA O PADRAO ALFA NO ULTIMO DIGITO QUE VAI DE 0 A 1, SENDO 0 MAIOR NIVEL DE TRANSPARENCIA DA LETRA
+( COLOCANDO 0, 0, 0, 0.1 TEREMOS 10% DE TRANSPARÊNCIA POIS O MAIOR NIVEL DE ALFA É 1=100% 
