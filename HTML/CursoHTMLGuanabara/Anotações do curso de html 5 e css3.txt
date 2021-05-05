@@ -83,6 +83,37 @@ POIS O HTML5 GANHO UM CARATER SEMÂNTICO, UM CARATER DE SIGNIFICADO.
        </figcaption>
          
          </figure> 
+Curso em Vídeo
+05/05/2021
+Aula 10 – Formatação de Imagens com CSS3
+
+vamos criar um arquivo de estilo para usarmos em nossas páginas.
+
+iremos em nosso arquivo recortar a formatação dentro da tag <style> </style>
+
+ Primeira coisa que vamos fazer e colocar a chave => @charset "UTF-8";
+segue nossa formatação abaixo:
+h1 {
+    font-family: Arial;
+    font-size: 35pt;
+    color: brown;
+    text-shadow: 2px 2px 20px black;
+} p {
+text-align: justify;
+text-indent: 50px;
+} body {
+       
+   background-color: hsla(165, 81%, 93%, 0.5);
+   /* hsl(hue saturation, lightness)*/
+   /* background-color: rgb(127, 131, 133);*/
+    /*background-image: url(" aqui dentro vai um fundo baixado arquivo background");*/
+    color: rgba(0, 0, 0, 1);
+}
+
+VOLTANDO PARA NOSSO ARQUIVO RETIRAREMOS A TAG <STYLE>
+E USAREMOS A TAG <LINK> ESSA TAG VAI ME GERAR UM LIGAÇÃO PARA BUSCAR MEU ARQUIVO CSS PARA O HTML5.
+- PRIMEIRO PARAMETRO QUE VAMOS USAR É O "rel"  e dentro das "" usaremos stylesheet(que quer dizer folhas de estilo) seguido colocaremos o type="text/css" e por fim vamos configurar qual arquivo será carregado com o parâmetro href="colocaremos o nome da pasta que esta/ e o nome do arquivo" => 
+- <link rel="stylesheet" type="text/css" href="_css/Aula-10-estilo.css">
 
 
 
