@@ -54,10 +54,35 @@ Imagens
 utiliza a tag
 <img src="local onde esta o aquivo/nome do arquivo"/> => Para colocar imagem na página.
 
-formtação ensinada de forma errada de imagem(tamanho)
-<img src="_imagens/glass-quadro-mulher.jpg" width="200"/> = forma errada na formatação de imagem porém funciona tbm, POREM SAIBA QUE O TAMANHO ORIGINAL DA IMAGEM EM SI NAO SERA REDUZIDO, DIMINUIRA O PX DENTRO DA HTML(VISIVEL), POREM O TAMANHO DO ARQUIVO PESARA NO SITE, A FORMA PARA DIMINUIR O TAMANHO DA IMAGEM PARA ENTRA TANTO NO TAMANHO VISIVEL COMO MAS LEVE PARA A PAGINA E USANDO UM EDITOR DE IMAGEM PARA FAZER A REDUÇÃO.( FERRAMENTA GRATUITA GIMP )
+formtação ensinada de forma "errada" de imagem(tamanho)
+<img src="_imagens/glass-quadro-mulher.jpg" width="200"/> = Utilizando os parâmetros WIDTH ou HEIGHT, você pode redimensionar uma imagem pelo HTML, POREM SAIBA QUE O TAMANHO ORIGINAL DA IMAGEM EM SI NAO SERA REDUZIDO, DIMINUIRA O PX DENTRO DA HTML(VISIVEL), POREM O TAMANHO DO ARQUIVO PESARA NO SITE, A FORMA PARA DIMINUIR O TAMANHO DA IMAGEM PARA ENTRA TANTO NO TAMANHO VISIVEL COMO MAS LEVE PARA A PAGINA E USANDO UM EDITOR DE IMAGEM PARA FAZER A REDUÇÃO.( FERRAMENTA GRATUITA GIMP para formata tamanho da imagem - importante apos formatar Exportar para Web” do seu editor de imagem)
 
 formatação de imagem dentro do padrão
+
+- FERRAMENTA GRATUITA GIMP para formata tamanho da imagem 
+- Dentro da ferramenta GIMP, ir em imagem-tamanho da imagem- editar largura para altera o tamanho em px.
+- importante apos formatar Exportar para Web” do seu editor de imagem
+
+CARREGANDO IMAGEM NA PAGINA
+Como carregar uma imagem em HTML5 que esteja em uma outra pasta?
+
+- NUNCA CARREGUE IMAGEM DE FORA DA PASTA QUE ESTA O SEU ARQUIVO.
+- COLOQUE NA MESMA PASTA OU ENTÃO EM UMA SUBPASTA.
+- SEMPRE UTILIZA BARRA "/" PARA DIREITA PARA SEPARAR O CAMINHO DA IMAGEM.
+
+SEMPRE QUANDO FOR COLOCAR UMA IMAGEM NA PAGINA UTILIZAR A TAG <FIFURE> </FIGURE>
+
+POIS O HTML5 GANHO UM CARATER SEMÂNTICO, UM CARATER DE SIGNIFICADO.
+ EX:
+      <figure>
+         <img src="_imagens/glass-quadro-homem-mulher.jpg"/>
+       
+        <figcaption>   =  a tag figcaption utiliza para criar legenda para imagem, podendo conter títulos e texto.
+           <h3>Google Glass</h3>
+           <p> Uma nova maneira de ver o mundo</p>
+       </figcaption>
+         
+         </figure> 
 
 
 
