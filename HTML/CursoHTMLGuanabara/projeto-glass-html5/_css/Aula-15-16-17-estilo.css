@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family = Titillium + Web');
+@font-face {
+  font-family: 'fontelogo';
+  src: url("../_fonts/bubblegum-sans-regular.otf");
+}
       /*Aula 16*/
      
       p {
@@ -16,16 +21,16 @@ text-indent: 50px;
           background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
       }
       header#cabecalho h1{
-        font-family: Arial, sans-serif;
+        font-family:  'fontelogo', sans-serif;
         font-size: 30pt;
         color: #606060;
         text-shadow: 1px 1px 1px rgba(0,0,0,.6);
         padding: 0px;
         margin-bottom: 0px; /* margin-bottom formata a parte de baixo do objeto*/
-        }
+      }
       
       header#cabecalho h2 {
-        font-family: arial, sans-serif;
+        font-family: 'Titillium Web' sans-serif;
         color: #888888;
         font-size: 15pt;
         padding: 0px;
