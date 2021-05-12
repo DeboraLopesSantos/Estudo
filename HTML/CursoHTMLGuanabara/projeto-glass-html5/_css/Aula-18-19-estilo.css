@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family = Titillium + Web');
+@font-face {
+  font-family: 'fontelogo';
+  src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+      /*Aula 16*/
+     
+      p {
+text-align: justify;
+text-indent: 50px;
+      } 
+      header#cabecalho img#icone {
+         position: absolute;
+         left: 958px;
+         top: 60px;
+      }
+      header#cabecalho {
+          border-bottom: 1px #606060 solid;
+          height: 150px;
+          background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
+      }
+      header#cabecalho h1{
+        font-family:  'fontelogo', sans-serif;
+        font-size: 30pt;
+        color: #606060;
+        text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+        padding: 0px;
+        margin-bottom: 0px; /* margin-bottom formata a parte de baixo do objeto*/
+      }
+      
+      header#cabecalho h2 {
+        font-family: 'Titillium Web' sans-serif;
+        color: #888888;
+        font-size: 15pt;
+        padding: 0px;
+        margin-top: 0px; /* margin-top formata a parte de cima do objeto*/
+      }
+    body 
+         {
+       background-color: #dddddd;
+      /* hsl(hue saturation, lightness)*/
+      /* background-color: rgb(127, 131, 133);*/
+      /*background-image: url(" aqui dentro vai um fundo baixado arquivo background");*/
+    color: rgba(0, 0, 0, 1);
+           }  
+           div#interface {
+               width: 900px;
+               background-color: #ffffff;
+               margin: -60px auto 0px auto;
+               box-shadow: 0px 0px 10px black;
+               padding: 10px;
+           }
+    figure.Foto-legenda 
+         {
+    position: relative; /*formata posicao da legenda*/
+    border: 8px solid white;  /* px tamanho da borda, solida, e cor da borda*/
+    box-shadow: 1px 1px 4px black; /*sombra imagem*/
+            }
+    figure.Foto-legenda img 
+         {
+         width: 100%; /* largura da imagem*/
+         height: 100%; /* altura da imagem */
+         } /* colocando img determina que toda imagem img figure a borda acompanhara o tamanho da imagem*/
+     figure.Foto-legenda figcaption 
+        {
+         opacity: 0; /* a legenda vai ficar transparente vampos criar um efeito para sobresair quando passar o mouse por cima*/
+         position: absolute; /*posiçaõ absoluta da legenda*/
+         top: 20px; 
+         background-color: rgba(0, 0, 0, .4); /*fundo da legenda preto com leve transparencia*/
+         color: white; /*cor da legenda*/
+         width: 100%;
+         height: 98%; /*colocando WIDTH E HEIGTH FAZ COM QUE O FUNDO DA LEGENDA TOME TODA A IMAGEM DANDO EFEITO DE FLUTUANDO*/
+         padding: 10px; /* POREM USANDO ELE ULTRAPASSA O LIMITE DA BORDA USAREMOS O BOX SIZING*/
+         box-sizing: border-box;
+         transition: opacity 1s;
+                          }
+     figure.Foto-legenda:hover figcaption 
+             {
+         opacity: 1;
+             }/*o hover vai dispara uma formatção especifica, 
+     quando passar o mouse por cima da imagem/objeto (que no caso é o figcaption) que estiver com efeito transparencia*/
+     /*otima aula hoje*/ 
+
+     /*10/05/21- formatação do menu*/
+     nav#menu {
+         display: block;
+     }
+    
+     nav#menu ul {
+         list-style: none;
+         text-transform: uppercase;
+         position: absolute; /* posicao absoluta faz com que fica livre dentro do site e nao preso no container  */
+         top: -20px;
+        left: 500px; 
+        } 
+     nav#menu li {
+         display: inline-block;
+         background-color: #dddddd;
+         padding: 10px;
+         margin: 2px;
+         transition: background-color 2s;
+          }
+     nav#menu li:hover {
+        background-color: #606060;
+     }
+     nav#menu h1 {
+       display: none;
+     }
+     nav#menu a {
+       color: #000000;
+       text-decoration: none;
+     }
+     nav#menu a:hover {
+       color: white;
+       text-decoration: underline;
+     }
+     section#corpo {
+         display: block;
+         width: 520px;
+         float: left;
+         border-right: 1px solid #606060;
+         padding-right: 15px;
+     } 
+     table#tabelaspec {
+         border: 1px solid #606060;
+         border-spacing: 0px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     table#tabelaspec td {
+         border: 1px solid #606060;
+         padding: 10px;
+         text-align: center;
+         vertical-align: bottom;
+     }
+     aside#lateral {
+         display: block;
+         width: 350px;
+         float: right;
+     }
+     footer#rodape {
+         clear: both; /*esse comando faz com que o rodape fique fora do conteudo limitando tambem a pagina*/
+         border-top: 1px solid #606060;
+     }
+     footer#rodape p {
+         text-align: center;
+
+     }

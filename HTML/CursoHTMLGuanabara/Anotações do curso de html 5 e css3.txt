@@ -157,3 +157,8 @@ JÁ NO ARQUIVO DE ESTILO
 
 
 
+Aula 18 e 19 – Semântica em HTML5 E Tabelas em HTML
+
+Aprendendo a usar as tags SECTION, ASIDE e FOOTER, utilizando o CSS3 com os modificadores DISPLAY: BLOCK e o FLOAT.
+Aprendendo a  utilizar as tags TABLE, CAPTION, TR, TD, Utilizando CSS3 utilizaremos o modificador BORDER-SPACING .
+
