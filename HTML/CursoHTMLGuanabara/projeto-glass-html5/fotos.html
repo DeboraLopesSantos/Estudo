@@ -1,15 +1,44 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <title>Google Glass</title>
+    <link rel="stylesheet" href="_css/Aula-20-21-estilo.css">
+    <!-- link com arquivo de estilo-->
+</head>
+<script language="javascript" src="_javascript/funcoes.js"></script>
+<body>
 
-[AQUI ENTRA UMA FOTO]
-
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
-
+&nbsp;&nbsp;&nbsp; <b>Aula 25</b>
+<div id="interface">
+    <header id="cabecalho">
+        <hgroup>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+        </hgroup>
+        <figure>
+            <img id="icone"src="_imagens/glass-oculos-preto-peq.png">
+        </figure>
+        <!-- feito para demosntração na aula
+        <br><br><br><s>Menu Principal</s> &larr; riscado
+        <br>- <span style="text-decoration: line-through;"> Home </span> &larr; nova tag riscado
+        <br>- <del>Especificações</del> &larr; tag riscado usada tambem
+        <br>- <u>Fotos</u> &larr; sublinhado-html-4
+        <br>- <span style=" text-decoration: underline;"> Multimídia</span> &larr; nova tag sublinhado html5
+        <br><br>- <span style="text-decoration: overline;">Fale conosco</span> &larr;tag linha em cima
+        -->
+        <nav id="menu"> <!--tag para abri um conteiner para oraganizar arquivo-->
+            <h1>Menu Principal</h1>
+            <ul type="disc"> <!-- <ol> tag lista ordenada type="1 ou A ou i" defini sua lista se vai ser sequencia numerica alfabetica ou numeros romanos-->
+                <!--Usando o paramentro START="2,3,4" junto com a tag <ol type="1,2,I" START="2,3,4"> DEFINI POR QUAL NUMERO OU LETRA VAI INICIA A SEQUENCIA DA LISTA-->
+                <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/fotos.png')"> <a href="index.html">Home</a></li><!--<li> que usa em todos os itens dentro de uma lista sendo Ordenada ou Não Ordenada-->
+                <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="specs.html">Especificações</a></li>
+                <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="fotos.html">Fotos</a></li>
+                <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="multimidia.html">Multimídia</a></li>
+                <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
 Glass > Fotos
 Galeria de Imagens do Google Glass
 por Gustavo Guanabara
@@ -24,6 +53,10 @@ Veja na nossa galeria de fotos várias belas imagens que mostram algumas das pri
 - Vários tipos de lente
 - Informações importantes
 
-Copyright 2013 - by Gustavo Guanabara
-
-Facebook | Twitter
+    <footer id="rodape">
+        <p>Copyright &copy; 2013 - by Gustavo Guanabara
+            <a href="http://facebook.com/cursosemvideo" target="_blank">Facebook</a>  | <a href="http://twitter.com/cursosemvideo" target="_blank">Twitter</a> </p>
+    </footer>
+</div>
+</body>
+</html>
