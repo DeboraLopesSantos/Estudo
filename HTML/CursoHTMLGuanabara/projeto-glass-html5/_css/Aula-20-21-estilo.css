@@ -93,6 +93,11 @@ text-indent: 50px;
      /*otima aula hoje*/ 
 
      /*10/05/21- formatação do menu*/
+     /* video#filme {
+      width: 95%;
+      height: 100%;
+      padding: 10px;
+     }*/
      nav#menu {
          display: block;
      }
