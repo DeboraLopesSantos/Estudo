@@ -60,7 +60,8 @@ text-indent: 50px;
                margin: -60px auto 0px auto;
                box-shadow: 0px 0px 10px black;
                padding: 10px;
-           }
+               }
+               
     figure.Foto-legenda 
          {
     position: relative; /*formata posicao da legenda*/
@@ -93,11 +94,6 @@ text-indent: 50px;
      /*otima aula hoje*/ 
 
      /*10/05/21- formatação do menu*/
-     /* video#filme {
-      width: 95%;
-      height: 100%;
-      padding: 10px;
-     }*/
      nav#menu {
          display: block;
      }
